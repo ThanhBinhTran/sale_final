@@ -1617,6 +1617,7 @@ public final class Main_form extends javax.swing.JFrame {
         });
 
         Button_them.setFont(new java.awt.Font("Times New Roman", 0, 16)); // NOI18N
+        Button_them.setForeground(new java.awt.Color(0, 0, 204));
         Button_them.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sale/img/button_add.png"))); // NOI18N
         Button_them.setText("Thêm");
         Button_them.addActionListener(new java.awt.event.ActionListener() {
@@ -1642,8 +1643,9 @@ public final class Main_form extends javax.swing.JFrame {
         });
 
         Button_luahoadon.setFont(new java.awt.Font("Times New Roman", 0, 16)); // NOI18N
-        Button_luahoadon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sale/img/buttom_savebill.png"))); // NOI18N
-        Button_luahoadon.setText("Lưa lại hóa đơn");
+        Button_luahoadon.setForeground(new java.awt.Color(0, 0, 204));
+        Button_luahoadon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sale/img/button_SavebillInfo.png"))); // NOI18N
+        Button_luahoadon.setText("Lưa hóa đơn");
         Button_luahoadon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Button_luahoadonActionPerformed(evt);
@@ -1651,6 +1653,7 @@ public final class Main_form extends javax.swing.JFrame {
         });
 
         ComboBox_SaveBill.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        ComboBox_SaveBill.setForeground(new java.awt.Color(255, 0, 0));
         ComboBox_SaveBill.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ComboBox_SaveBillActionPerformed(evt);
