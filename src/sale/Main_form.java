@@ -1118,37 +1118,124 @@ public final class Main_form extends javax.swing.JFrame {
      private boolean savebill(String saveFile){
          boolean return_val = true;
          String unknownComsumer = "......................";
+         if(No_cu.getText().isEmpty()){
+             No_cu.setText("0.0");
+         }
          try{
-            FileOutputStream fos = new FileOutputStream(saveFile);
-            Writer out = new OutputStreamWriter(fos, "UTF8");
-            {
-                int paid_count = Paid_MaSP.size();
-                if(ten_khach_hang.getText().trim().isEmpty()){
-                    ten_khach_hang.setText(unknownComsumer);
-                }
-                out.write("==+"+ ten_khach_hang.getText() + "\n");
-                for(int i = 0; i < paid_count; i++)
-                {
-                    out.write("===" + Paid_MaSP.get(i) + "<>"
-                            + Paid_TenSP.get(i) + "<>"
-                            + Paid_GiaSSP.get(i) + "<>"
-                            + Paid_GiaLSP.get(i) + "<>"
-                            + Paid_SoLuongSP.get(i) + "<>"
-                            + Paid_TongGiaSP.get(i) + "\n");
-                }
-                if(No_cu.getText().isEmpty()){
-                    No_cu.setText("0.0");
-                }
-                out.write("==-"+ No_cu.getText() + "\n");
-                out.close();
-            }
-         }catch (Exception e){//Catch exception if any
-             thongbao_text("Không tìm thấy file", Color.RED);
+             Double.parseDouble(No_cu.getText());
+         }catch(NumberFormatException e){
+             show_message("Lỗi, Coi lại số nợ");
              return_val = false;
+         }
+         if(return_val){
+            try{
+               FileOutputStream fos = new FileOutputStream(saveFile);
+               Writer out = new OutputStreamWriter(fos, "UTF8");
+               {
+                   int paid_count = Paid_MaSP.size();
+                   if(ten_khach_hang.getText().trim().isEmpty()){
+                       ten_khach_hang.setText(unknownComsumer);
+                   }
+                   out.write("==+"+ ten_khach_hang.getText() + "\n");
+                   for(int i = 0; i < paid_count; i++)
+                   {
+                       out.write("===" + Paid_MaSP.get(i) + "<>"
+                               + Paid_TenSP.get(i) + "<>"
+                               + Paid_GiaSSP.get(i) + "<>"
+                               + Paid_GiaLSP.get(i) + "<>"
+                               + Paid_SoLuongSP.get(i) + "<>"
+                               + Paid_TongGiaSP.get(i) + "\n");
+                   }
+                   out.write("==-"+ No_cu.getText() + "\n");
+                   out.close();
+               }
+            }catch (Exception e){//Catch exception if any
+                thongbao_text("[Lỗi] Không mở được file" + saveFile, Color.RED);
+                return_val = false;
+            }
          }
          return return_val;
      }
      
+     private void buttonSaveBill(){
+                 boolean result ;
+        if(!Paid_MaSP.isEmpty() && Money_count_Items != 0){
+            int curSaveBillIdx = saveBillCount%saveBillBound;
+            String savefile = saveBillFile + curSaveBillIdx;
+            result = savebill(savefile);
+            if(result){
+                saveBillCount ++;
+                ComboBox_SaveBill.insertItemAt(ten_khach_hang.getText().trim(), curSaveBillIdx);
+                    if(ComboBox_SaveBill.getItemCount() > saveBillBound){
+                    ComboBox_SaveBill.removeItemAt(curSaveBillIdx + 1);
+                }
+                clear_table(dm_hoa_don);
+                clear_Paid_list();
+            }else{
+                thongbao_text("[Lỗi] Lưa không thành công", Color.RED);
+            }
+        }else{
+            thongbao_text("Không có sản phẩm", Color.blue);
+        }
+      
+     }
+     private void LoadSavedBill(){
+                 if(ComboBox_SaveBill.getItemCount() > 0){
+            int idxFile = ComboBox_SaveBill.getSelectedIndex();
+            String loadFile = saveBillFile + idxFile;
+            int count = 1;
+            clear_Paid_list();
+            clear_table(dm_hoa_don);
+            try{
+                FileInputStream in = new FileInputStream(loadFile);
+                try (BufferedReader bufffile = new BufferedReader(new InputStreamReader(in, "UTF8"))){
+                    String strLine;
+                    strLine = bufffile.readLine();
+                    while (strLine != null) {
+                        if(strLine.substring(0, 3).equals("==+")){
+                            ten_khach_hang.setText(strLine.substring(3));
+                        }else if(strLine.substring(0, 3).equals("===")){
+                            String sdata[] = strLine.substring(3).split("<>");
+                            Vector  sVector = new Vector();
+                            sVector.add(count++);
+                            sVector.add(sdata[0]);  //ma sp
+                            sVector.add(sdata[1]);  //ten sp
+                            sVector.add(sdata[2]);  //gia s
+                            sVector.add(sdata[3]);  //gia l
+                            sVector.add(sdata[4]);  //so luong
+                            sVector.add(sdata[5]);  // tien
+                            sVector.add(Boolean.TRUE);
+                            dm_hoa_don.addRow(sVector);
+                            dm_hoa_don.fireTableDataChanged();
+                            Paid_MaSP.add(sdata[0]);
+                            Paid_TenSP.add(sdata[1]);
+                            Paid_GiaSSP.add(Double.parseDouble(sdata[2]));
+                            Paid_GiaLSP.add(Double.parseDouble(sdata[3]));
+                            Paid_SoLuongSP.add(Double.parseDouble(sdata[4]));
+                            Paid_TongGiaSP.add(Double.parseDouble(sdata[5]));
+                            //
+
+                        }else if(strLine.substring(0, 3).equals("==-")){
+                            No_cu.setText(strLine.substring(3));
+                        }
+                        strLine = bufffile.readLine();
+                    }
+                    if(dm_hoa_don.getRowCount() > 0){
+                        add_Paid_row();
+                    }else{
+                        clear_Paid_list();
+                        clear_table(dm_hoa_don);
+                        thongbao_text("[Lỗi] refresh để làm lại", Color.RED);
+                    }
+                }
+                in.close();
+            }catch (Exception e){//Catch exception if any
+                thongbao_text("Lỗi debug 111" + e.getMessage(), Color.RED);
+            }
+        }else{
+            thongbao_text("Chưa có hóa đơn nào được lựu", Color.blue);
+        }
+     }
      private void add_to_history(){
          String sHistory = Cbm_history.getSelectedItem().toString();
          System.out.println("sHistory:" + sHistory + ", file name " + file_path);
@@ -2524,30 +2611,14 @@ public final class Main_form extends javax.swing.JFrame {
 
     private void Button_luahoadonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button_luahoadonActionPerformed
         // TODO add your handling code here:
-        boolean result ;
-        if(!Paid_MaSP.isEmpty() && Money_count_Items != 0){
-            int curSavebillFile = saveBillCount%saveBillBound;
-            String savefile = saveBillFile + curSavebillFile;
-            result = savebill(savefile);
-            if(result){
-                saveBillCount ++;
-                ComboBox_SaveBill.addItem(ten_khach_hang.getText().trim());
-                if(ComboBox_SaveBill.getItemCount() > saveBillBound){
-                    ComboBox_SaveBill.removeItemAt(0);
-                }
-            }
-            System.out.println("save file " + savefile);
-            clear_table(dm_hoa_don);
-            clear_Paid_list();
-        }else{
-            thongbao_text("Không có sản phẩm", Color.blue);
-        }
+        buttonSaveBill();
+        barCode_grabFocus();
     }//GEN-LAST:event_Button_luahoadonActionPerformed
 
     private void ComboBox_SaveBillActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComboBox_SaveBillActionPerformed
         // TODO add your handling code here:
-        int idxFile = ComboBox_SaveBill.getSelectedIndex();
-        String loadFile = saveBillFile + idxFile;
+        LoadSavedBill();
+        barCode_grabFocus();
     }//GEN-LAST:event_ComboBox_SaveBillActionPerformed
     public void display_text_paylist()
     {
