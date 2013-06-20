@@ -5,8 +5,11 @@
 package sale;
 
 import java.awt.Color;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 
@@ -14,14 +17,14 @@ import java.io.Writer;
  *
  * @author Binh
  */
-public class Configuration extends javax.swing.JFrame {
+public class Configuration_system extends javax.swing.JFrame {
 
     /**
      * Creates new form Configuration
      */
     String file_dir = "data";
     String  file_path = file_dir + "\\configuration.thsv";
-    public Configuration() {
+    public Configuration_system() {
         initComponents();
     }
 
@@ -77,6 +80,42 @@ public class Configuration extends javax.swing.JFrame {
             thongbao.setForeground(Color.red);
         }
     }
+    public void defaulConfigureInfo(){
+        bill_name.setText("Tạp hóa Sáu Vân");
+        bill_phone.setText("(083) 592-33-79");
+    }
+    public boolean LoadConfigureInfo(){
+        boolean return_val = true;
+        try{
+            FileInputStream in = new FileInputStream(file_path);
+            try (BufferedReader bufffile = new BufferedReader(new InputStreamReader(in, "UTF8"))) 
+            {
+                String strLine;
+                strLine = bufffile.readLine();
+                while (strLine != null)   {
+                    if(strLine.substring(0, 3).equals("=00"))
+                    {
+                        bill_name.setText(strLine.substring(3));
+                    }
+                    else if(strLine.substring(0, 3).endsWith("=01"))
+                    {
+                        bill_phone.setText(strLine.substring(3));
+                    }
+                    else if(strLine.substring(0, 3).endsWith("=09"))
+                    {
+                        bill_maxNameChar.setText(strLine.substring(3));
+                    }
+                    strLine = bufffile.readLine();
+                }
+            }
+            in.close();
+        }catch (Exception e){//Catch exception if any
+            return_val = false;
+        }
+
+        return return_val;
+    }
+            
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -115,6 +154,7 @@ public class Configuration extends javax.swing.JFrame {
         bill_maxNameChar = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         thongbao = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -407,6 +447,14 @@ public class Configuration extends javax.swing.JFrame {
         thongbao.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         thongbao.setText("Thông báo:");
 
+        jButton2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        jButton2.setText("Mặc định");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -418,7 +466,9 @@ public class Configuration extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(thongbao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(thongbao, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -427,7 +477,8 @@ public class Configuration extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
-                    .addComponent(thongbao))
+                    .addComponent(thongbao)
+                    .addComponent(jButton2))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -492,6 +543,11 @@ public class Configuration extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_bill_maxNameCharActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        defaulConfigureInfo();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -509,20 +565,20 @@ public class Configuration extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Configuration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Configuration_system.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Configuration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Configuration_system.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Configuration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Configuration_system.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Configuration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Configuration_system.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Configuration().setVisible(true);
+                new Configuration_system().setVisible(true);
             }
         });
     }
@@ -543,6 +599,7 @@ public class Configuration extends javax.swing.JFrame {
     private javax.swing.JTextField bill_subtotal;
     private javax.swing.JTextField bill_total;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;

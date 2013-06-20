@@ -27,7 +27,7 @@ import javax.swing.table.TableColumn;
  *
  * @author Binh
  */
-public class history_info extends javax.swing.JFrame {
+public class History_info extends javax.swing.JFrame {
 
     /**
      * Creates new form history_info
@@ -40,7 +40,7 @@ public class history_info extends javax.swing.JFrame {
     String  file_name;
     DefaultTableModel tm;
     DefaultListModel lm ;
-    public history_info() {
+    public History_info() {
         initComponents();
         initial_environment();
         setPayTableColumnSize();
@@ -189,7 +189,7 @@ public class history_info extends javax.swing.JFrame {
             try {
                 in = new FileInputStream(file_name);
             } catch (FileNotFoundException ex) {
-                Logger.getLogger(history_info.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(History_info.class.getName()).log(Level.SEVERE, null, ex);
             }
             try (BufferedReader bufffile = new BufferedReader(new InputStreamReader(in, "UTF8"))) 
             {
@@ -498,20 +498,20 @@ public class history_info extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(history_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(History_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(history_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(History_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(history_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(History_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(history_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(History_info.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new history_info().setVisible(true);
+                new History_info().setVisible(true);
             }
         });
     }

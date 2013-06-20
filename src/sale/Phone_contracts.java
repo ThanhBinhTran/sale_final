@@ -25,7 +25,7 @@ import javax.swing.table.TableColumn;
  *
  * @author Binh
  */
-public final class danh_ba_dien_thoai extends javax.swing.JFrame {
+public final class Phone_contracts extends javax.swing.JFrame {
 
     /**
      * Creates new form danh_ba_dien_thoai
@@ -40,7 +40,7 @@ public final class danh_ba_dien_thoai extends javax.swing.JFrame {
     DefaultTableModel   dtm_phone;
     String  file_dir   = "Contacts";
     String  file_path = "Contacts\\danhba.thsv";
-    public danh_ba_dien_thoai() {
+    public Phone_contracts() {
         Phone_address   = new Vector();
         Phone_number    = new Vector();
         Phone_name      = new Vector();
@@ -793,20 +793,20 @@ public final class danh_ba_dien_thoai extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(danh_ba_dien_thoai.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Phone_contracts.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(danh_ba_dien_thoai.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Phone_contracts.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(danh_ba_dien_thoai.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Phone_contracts.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(danh_ba_dien_thoai.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Phone_contracts.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new danh_ba_dien_thoai().setVisible(true);
+                new Phone_contracts().setVisible(true);
             }
         });
     }

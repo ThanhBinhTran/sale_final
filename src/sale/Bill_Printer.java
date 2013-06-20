@@ -39,7 +39,7 @@ import javax.swing.UIManager;
  * print pager [-70;130]
  */
 
-public class Print_bill implements Printable, ActionListener {
+public class Bill_Printer implements Printable, ActionListener {
   int pY_offset = 0;
   int pX_align = -70;
   int x_name_offset     = -55;
@@ -54,7 +54,7 @@ public class Print_bill implements Printable, ActionListener {
   public int print_type = 0;
   private static DecimalFormat moneyFormat;
   
-  Print_bill (){
+  Bill_Printer (){
         UIManager.put("swing.boldMetal", Boolean.FALSE);
         JFrame f = new JFrame("tap hoa sau van_dich vu in");
         get_bill_configure();
@@ -88,9 +88,9 @@ public class Print_bill implements Printable, ActionListener {
             }
             return PAGE_EXISTS;
         } catch (WriterException ex) {
-            Logger.getLogger(Print_bill.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Bill_Printer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            Logger.getLogger(Print_bill.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Bill_Printer.class.getName()).log(Level.SEVERE, null, ex);
                 
         }
         return PAGE_EXISTS;

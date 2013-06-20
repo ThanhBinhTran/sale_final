@@ -22,7 +22,7 @@ import org.apache.poi.ss.usermodel.Row;
  *
  * @author Binh
  */
-public final class hang_hoa {
+public final class Goods_price {
     
     public static Vector ma_sp;
     public static Vector ten_sp;
@@ -43,7 +43,7 @@ public final class hang_hoa {
     public static Iterator<Cell> cellIterator;
     public static Cell cell   ;
     int MAX_FIND = 40;
-   public  hang_hoa() {
+   public  Goods_price() {
        ma_sp        = new Vector();
        ten_sp       = new Vector();
        giaS_sp      = new Vector();
@@ -218,11 +218,11 @@ public final class hang_hoa {
             
         } catch (FileNotFoundException ex) {
             return_val = -1;
-            Logger.getLogger(hang_hoa.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Goods_price.class.getName()).log(Level.SEVERE, null, ex);
             
         } catch (IOException ex) {
             return_val = -2;
-            Logger.getLogger(hang_hoa.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Goods_price.class.getName()).log(Level.SEVERE, null, ex);
         }
         return return_val;
         //System.out.println("Excel written successfully..");
@@ -262,10 +262,10 @@ public final class hang_hoa {
             myOutput.close();
             
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(hang_hoa.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Goods_price.class.getName()).log(Level.SEVERE, null, ex);
             return -1;
         } catch (IOException ex) {
-            Logger.getLogger(hang_hoa.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Goods_price.class.getName()).log(Level.SEVERE, null, ex);
             return -2;
         }       
        return 0;
@@ -398,10 +398,10 @@ public final class hang_hoa {
             myOutput.close();
             
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(hang_hoa.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Goods_price.class.getName()).log(Level.SEVERE, null, ex);
             return_val = -1;
         } catch (IOException ex) {
-            Logger.getLogger(hang_hoa.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Goods_price.class.getName()).log(Level.SEVERE, null, ex);
             return_val = -2;
         }
        return return_val;

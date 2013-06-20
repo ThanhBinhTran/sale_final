@@ -11,7 +11,7 @@ import javax.swing.JFrame;
  *
  * @author Binh
  */
-public class Sale {
+public class Sale_main {
 
     /**
      * @param args the command line arguments

@@ -48,9 +48,9 @@ public final class Main_form extends javax.swing.JFrame {
     /**
      * Creates new form Main_form
      */
-    hang_hoa SauVan = new hang_hoa();
-    public Print_bill in_hoa_don = new Print_bill();
-    public danh_ba_dien_thoai danhba    = new danh_ba_dien_thoai();
+    Goods_price SauVan = new Goods_price();
+    public Bill_Printer in_hoa_don = new Bill_Printer();
+    public Phone_contracts danhba    = new Phone_contracts();
     
     public Vector<String> Paid_MaSP;
     public Vector<String> Paid_TenSP;
@@ -82,7 +82,7 @@ public final class Main_form extends javax.swing.JFrame {
     private Boolean Updated_mode;
     private Boolean giaS_mode;
     //private Boolean Process_pay_mode = false;
-    private history_info history_tracking;
+    private History_info history_tracking;
     private static String datarepository    = "data";
     private static String billConfigFile    = datarepository + "\\configuration.thsv";
     private static String saveBillFile      = datarepository + "\\SaveBill.thsv";
@@ -111,7 +111,7 @@ public final class Main_form extends javax.swing.JFrame {
         this.New_MaSP   = new Vector<>();
         this.curSP      = new Vector();
         this.search_list     = new Vector<>();
-        history_tracking    = new history_info();
+        history_tracking    = new History_info();
         initComponents();
         init_eviroment();
         setPayTableColumnSize();
@@ -1112,7 +1112,11 @@ public final class Main_form extends javax.swing.JFrame {
         barCode_grabFocus();
      }
      private void setup_configuration() {
-         Configuration SVtool = new Configuration();
+         Configuration_system SVtool = new Configuration_system();
+         boolean result = SVtool.LoadConfigureInfo();
+         if(!result){
+             SVtool.defaulConfigureInfo();
+         }
          SVtool.setVisible(true);
      }
      private boolean savebill(String saveFile){
