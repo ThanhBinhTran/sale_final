@@ -93,6 +93,7 @@ public final class Main_form extends javax.swing.JFrame {
     private static int MAX_NAME_CHAR    = 1;
     private static int saveBillBound    = 5;
     private static int saveBillCount    = 0;
+    private        int saveBillIdxNoti  = 1;
     private String sDate_time;
     private double dno_cu =0.0;
     private static File f;
@@ -1160,16 +1161,25 @@ public final class Main_form extends javax.swing.JFrame {
          }
          return return_val;
      }
-     
+     private void buttonSaveBillsetText(int i){
+         Button_luahoadon.setText("Lưu hóa đơn [" + i +"]");
+         if(i != 0){
+             Button_luahoadon.setForeground(Color.red);
+         }else{
+             Button_luahoadon.setForeground(Color.blue);
+         }
+     }
      private void buttonSaveBill(){
-                 boolean result ;
+        boolean result ;
         if(!Paid_MaSP.isEmpty() && Money_count_Items != 0){
             int curSaveBillIdx = saveBillCount%saveBillBound;
             String savefile = saveBillFile + curSaveBillIdx;
             result = savebill(savefile);
             if(result){
+                buttonSaveBillsetText(saveBillIdxNoti++);
                 saveBillCount ++;
-                ComboBox_SaveBill.insertItemAt(ten_khach_hang.getText().trim(), curSaveBillIdx);
+                ComboBox_SaveBill.insertItemAt("Hóa đơn[" + saveBillCount + "]" 
+                        +ten_khach_hang.getText().trim(), curSaveBillIdx);
                     if(ComboBox_SaveBill.getItemCount() > saveBillBound){
                     ComboBox_SaveBill.removeItemAt(curSaveBillIdx + 1);
                 }
@@ -1184,7 +1194,7 @@ public final class Main_form extends javax.swing.JFrame {
       
      }
      private void LoadSavedBill(){
-                 if(ComboBox_SaveBill.getItemCount() > 0){
+         if(ComboBox_SaveBill.getItemCount() > 0){
             int idxFile = ComboBox_SaveBill.getSelectedIndex();
             String loadFile = saveBillFile + idxFile;
             int count = 1;
@@ -1192,6 +1202,7 @@ public final class Main_form extends javax.swing.JFrame {
             clear_table(dm_hoa_don);
             try{
                 FileInputStream in = new FileInputStream(loadFile);
+                thongbao_text(loadFile, Color.blue);
                 try (BufferedReader bufffile = new BufferedReader(new InputStreamReader(in, "UTF8"))){
                     String strLine;
                     strLine = bufffile.readLine();
@@ -1234,7 +1245,7 @@ public final class Main_form extends javax.swing.JFrame {
                 }
                 in.close();
             }catch (Exception e){//Catch exception if any
-                thongbao_text("Lỗi debug 111" + e.getMessage(), Color.RED);
+                thongbao_text("Lỗi" + e.getMessage(), Color.RED);
             }
         }else{
             thongbao_text("Chưa có hóa đơn nào được lựu", Color.blue);
@@ -1649,7 +1660,7 @@ public final class Main_form extends javax.swing.JFrame {
         Button_luahoadon.setFont(new java.awt.Font("Times New Roman", 0, 16)); // NOI18N
         Button_luahoadon.setForeground(new java.awt.Color(0, 0, 204));
         Button_luahoadon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sale/img/button_SavebillInfo.png"))); // NOI18N
-        Button_luahoadon.setText("Lưa hóa đơn");
+        Button_luahoadon.setText("Lưu hóa đơn [0]");
         Button_luahoadon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Button_luahoadonActionPerformed(evt);
@@ -1657,7 +1668,7 @@ public final class Main_form extends javax.swing.JFrame {
         });
 
         ComboBox_SaveBill.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        ComboBox_SaveBill.setForeground(new java.awt.Color(255, 0, 0));
+        ComboBox_SaveBill.setForeground(new java.awt.Color(0, 0, 153));
         ComboBox_SaveBill.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ComboBox_SaveBillActionPerformed(evt);
@@ -2625,6 +2636,8 @@ public final class Main_form extends javax.swing.JFrame {
     private void ComboBox_SaveBillActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComboBox_SaveBillActionPerformed
         // TODO add your handling code here:
         LoadSavedBill();
+        buttonSaveBillsetText(0);
+        saveBillIdxNoti = 1;
         barCode_grabFocus();
     }//GEN-LAST:event_ComboBox_SaveBillActionPerformed
     public void display_text_paylist()
