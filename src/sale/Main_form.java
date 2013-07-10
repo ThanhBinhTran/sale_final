@@ -984,8 +984,13 @@ public final class Main_form extends javax.swing.JFrame {
          }
          if(ten_sanpham.length() >=2)
          {
-            ten_sanpham =  ten_sanpham.substring(0, 1).toUpperCase() +
+             if(ten_sanpham.length() < 15){
+                ten_sanpham =  ten_sanpham.substring(0, 1).toUpperCase() +
+                           ten_sanpham.substring(1);
+             }else{
+                 ten_sanpham =  ten_sanpham.substring(0, 1).toUpperCase() +
                            ten_sanpham.substring(1).toLowerCase();
+             }
          }
          if(ten_sanpham.isEmpty())
          {
