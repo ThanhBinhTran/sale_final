@@ -70,7 +70,7 @@ public class Bill_Printer implements Printable, ActionListener {
             }
             gHoa_don = (Graphics2D)g;
             gHoa_don.setFont(pFont_time);
-            gHoa_don.translate(pf.getImageableX(), pf.getImageableY());
+            gHoa_don.translate(pf.getImageableX(), pf.getImageableY()-65);
             gHoa_don.setClip(pX_align, 0,200,5000);
             switch (print_type)
             {
