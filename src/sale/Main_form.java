@@ -2468,7 +2468,7 @@ public final class Main_form extends javax.swing.JFrame {
     private void botton_update_databaseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botton_update_databaseActionPerformed
         // TODO add your handling code here:
         //get and check all data form table
-        consilidated_table();
+        //consilidated_table();
         int row_Count;
         row_Count = bang_tim_info_SP.getRowCount();
         double  test_gia;
