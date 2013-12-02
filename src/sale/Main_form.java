@@ -91,7 +91,7 @@ public final class Main_form extends javax.swing.JFrame {
     private static String owner_name = "";
     private static String phone_number = "";
     private static int MAX_NAME_CHAR    = 1;
-    private static int saveBillBound    = 5;
+    private static int saveBillBound    = 15;
     private static int saveBillCount    = 0;
     private        int saveBillIdxNoti  = 1;
     private String sDate_time;

@@ -196,6 +196,10 @@ public class History_info extends javax.swing.JFrame {
             String strLine;
             strLine = bufffile.readLine();
             int line_count = 0;
+            double soluong = 0;
+            double subtotal = 0;
+            double nocu     = 0;
+            double total    = 0;
             while (strLine != null) {
                 line_count++;
                 {
@@ -223,19 +227,32 @@ public class History_info extends javax.swing.JFrame {
                                 data_line++;
                                 break;
                             case "==>":
+                                soluong = Double.parseDouble(idata[0]);
+                                subtotal = Double.parseDouble(idata[1]);
+                                data_row.add(null);
+                                data_row.add(null);
+                                data_row.add(null);
+                                data_row.add(soluong);   //ma sanpham
+                                data_row.add(subtotal);   //ma sanpham
+                                tm.addRow(data_row);
+                                tm.fireTableDataChanged();
+                                break ;
+                            case "==-":
                                 Vector data_row1 = new Vector();
+                                nocu = Double.parseDouble(idata[0]);
+
                                 data_row.add(null);
                                 data_row.add(null);
-                                data_row.add(null);
-                                data_row.add(idata[0]);   //ma sanpham
-                                data_row.add(idata[1]);   //ma sanpham
+                                data_row.add(null);   
+                                data_row.add("Nợ cũ");
+                                data_row.add(nocu);   //ma sanpham
                                 tm.addRow(data_row);
                                 tm.fireTableDataChanged();
                                 data_row1.add(null);
-                                data_row1.add("Lấy vào");
-                                data_row1.add(idata[2]);   //ma sanpham
-                                data_row1.add("Thối lại");
-                                data_row1.add(idata[3]);   //ma sanpham
+                                data_row1.add(null);
+                                data_row1.add(null);   //ma sanpham
+                                data_row1.add("Tổng cộng");
+                                data_row1.add(nocu + subtotal);   //ma sanpham
                                 tm.addRow(data_row1);
                                 tm.fireTableDataChanged();
                                 data_line = -1;
