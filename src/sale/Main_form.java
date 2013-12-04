@@ -886,14 +886,17 @@ public final class Main_form extends javax.swing.JFrame {
              savespace = true;
          }
          sData_row = "Ngày: " + sDate_time + "\n";
-         sData_row += owner_name  ;
-         if(!savespace){
-             sData_row += "\n";
-             sData_row += "ĐT: " + phone_number +"\n";
-         }else{
-             sData_row += "  " + phone_number +"\n";
+         if(!owner_name.isEmpty()){
+            sData_row += owner_name  ; 
+            if(!savespace){
+                sData_row += "\n";
+            }else{
+                sData_row += ", ";
+            }
          }
-         
+         if(!phone_number.isEmpty()){
+            sData_row += "ĐT: " + phone_number +"\n";
+         }
          if(!savespace){
             sData_row += "Khách hàng: " + Consumer_name + "\n";
          }
