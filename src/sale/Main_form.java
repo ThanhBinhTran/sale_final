@@ -239,13 +239,16 @@ public final class Main_form extends javax.swing.JFrame {
         sDate_time = dateFormat.format(date).toString();
         date_time.setText(sDate_time.substring(0,10));
 
-        String  file_date   = dateFormat.format(date).toString();
-        String[] file_info = file_date.split("/");
+        String[]  file_date   = dateFormat.format(date).toString().split(" ");
+        String[] file_info = file_date[0].split("/");
 
         File File_path = new File(file_info[2]);
         if(!File_path.exists())
         {
             File_path.mkdirs();
+            System.out.println("chua co thu muc" + file_info[2]);
+        }else{
+            System.out.println("co thu muc");
         }
         
         if(File_path.exists())
@@ -1671,6 +1674,11 @@ public final class Main_form extends javax.swing.JFrame {
                 No_cuMouseClicked(evt);
             }
         });
+        No_cu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                No_cuActionPerformed(evt);
+            }
+        });
         No_cu.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 No_cuKeyReleased(evt);
@@ -2660,6 +2668,11 @@ public final class Main_form extends javax.swing.JFrame {
         saveBillIdxNoti = 1;
         barCode_grabFocus();
     }//GEN-LAST:event_ComboBox_SaveBillActionPerformed
+
+    private void No_cuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_No_cuActionPerformed
+        // TODO add your handling code here:
+        barCode_grabFocus();
+    }//GEN-LAST:event_No_cuActionPerformed
     public void display_text_paylist()
     {
         System.out.println("Size :" + Paid_MaSP.size() + "-" +
