@@ -1020,19 +1020,19 @@ public final class Main_form extends javax.swing.JFrame {
             if(return_val == 0)
             {
                 Print_bill_process();
+                thongbao_text("Đã thanh toán: " + Money_count_Items + " mặt hàng, Giá: "
+                        + moneyFormat.format(Money_total_bill) + ", Nợ cũ: "
+                        + dno_cu + ", Tổng giá: " 
+                        + moneyFormat.format(Money_total_bill + dno_cu), Color.BLUE);
                 clear_Paid_list();
                 clear_Updated_list();
                 clear_hand_list();
                 clear_table(dm_hoa_don);
                 clear_table(dm_info_SP);
-                No_cu.setText("0.0");
                 //get back enable some thiong
                 normal_mode(false);
                 ComboBox_history.setEnabled(true);
-                thongbao_text("Đã thanh toán: " + Money_count_Items + " mặt hàng, Tổng giá "
-                        + moneyFormat.format(Money_total_bill) + ", Lấy vào "
-                        + Money_custumer + ", Trả lại " 
-                        + moneyFormat.format(Money_return), Color.BLUE);
+                
                 ten_khach_hang.setText("");
                 No_cu.setText("0.0");
             }
