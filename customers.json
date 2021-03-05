@@ -1,0 +1,2899 @@
+[
+    {
+        "ID": "SVK387",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "38934579014140",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 82.0,
+                "Search_name": null,
+                "Wholesale_price": 80.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.M.NG.LN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 145.0,
+                "Search_name": null,
+                "Wholesale_price": 145.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.ERA.T",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 62.0,
+                "Search_name": null,
+                "Wholesale_price": 61.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08935039505160",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 780.0,
+                "Search_name": null,
+                "Wholesale_price": 780.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "2",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK122",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "38934579014140",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 82.0,
+                "Search_name": null,
+                "Wholesale_price": 80.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.M.NG.LN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 145.0,
+                "Search_name": null,
+                "Wholesale_price": 145.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.ERA.T",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 62.0,
+                "Search_name": null,
+                "Wholesale_price": 61.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08935039505160",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 780.0,
+                "Search_name": null,
+                "Wholesale_price": 780.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "893510940252",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 20.0,
+                "Search_name": null,
+                "Wholesale_price": 16.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8935102104917",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 33.0,
+                "Search_name": null,
+                "Wholesale_price": 30.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8937510942150",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 30.0,
+                "Search_name": null,
+                "Wholesale_price": 25.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934868077862",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 70.0,
+                "Search_name": null,
+                "Wholesale_price": 70.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "2",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK123",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "38934579014140",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 82.0,
+                "Search_name": null,
+                "Wholesale_price": 80.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.M.NG.LN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 145.0,
+                "Search_name": null,
+                "Wholesale_price": 145.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.ERA.T",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 62.0,
+                "Search_name": null,
+                "Wholesale_price": 61.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08935039505160",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 780.0,
+                "Search_name": null,
+                "Wholesale_price": 780.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "khach hang 1",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK1",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "8934839123635",
+                "Name": null,
+                "Quanlity": 2.0,
+                "Recharge": 1,
+                "Retail_price": 27.0,
+                "Search_name": null,
+                "Wholesale_price": 25.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "..........",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK2",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "8934839123635",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 333.0,
+                "Search_name": null,
+                "Wholesale_price": 444.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK TALL",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "K8",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "K7",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "K6",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "K5",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "K4",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "K3",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "K2",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "K1",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "thuoc",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 4",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 15.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH CHIEN",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 6",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08935039505160",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 840.0,
+                "Search_name": null,
+                "Wholesale_price": 840.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CTY PHAN VU",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 41",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 12.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.TA.C.25",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 520.0,
+                "Search_name": null,
+                "Wholesale_price": 510.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH CHUC",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 39",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08935039500806",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 920.0,
+                "Search_name": null,
+                "Wholesale_price": 920.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH THAI",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 42",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 550.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 30.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 295.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "DAM SEN",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 40",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.K.3KG",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 720.0,
+                "Search_name": null,
+                "Wholesale_price": 720.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI HUYEN TUAN",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 37",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 2.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.4",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 285.0,
+                "Search_name": null,
+                "Wholesale_price": 285.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI THAM",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 35",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.TP.1",
+                "Name": null,
+                "Quanlity": 25.0,
+                "Recharge": 1,
+                "Retail_price": 270.0,
+                "Search_name": null,
+                "Wholesale_price": 262.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.TP.0.5",
+                "Name": null,
+                "Quanlity": 15.0,
+                "Recharge": 1,
+                "Retail_price": 276.0,
+                "Search_name": null,
+                "Wholesale_price": 268.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CONG THANH",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 36",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI MAI HUONG",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 33",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.DC.X",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 345.0,
+                "Search_name": null,
+                "Wholesale_price": 340.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.TA.C.25",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 520.0,
+                "Search_name": null,
+                "Wholesale_price": 510.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "BANH VIET THANH",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 34",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.K.3KG",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 720.0,
+                "Search_name": null,
+                "Wholesale_price": 720.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH TUYEN",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 28",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.TA.C.25",
+                "Name": null,
+                "Quanlity": 6.0,
+                "Recharge": 1,
+                "Retail_price": 520.0,
+                "Search_name": null,
+                "Wholesale_price": 510.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH NGU",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 21",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 15.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.J.C",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 180.0,
+                "Search_name": null,
+                "Wholesale_price": 178.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18935049500421",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 173.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "BAN NGOC",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 26",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 575.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH MINH",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 23",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "BANH BAO TRAN",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 19",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.CL.C.25",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 520.0,
+                "Search_name": null,
+                "Wholesale_price": 505.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI NHAN",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 20",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08935039505160",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 840.0,
+                "Search_name": null,
+                "Wholesale_price": 840.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI TUYEN",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 15",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 6.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHU PHUONG",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 18",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 4.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH DAI(CHIN)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 16",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 60.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.3",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 760.0,
+                "Search_name": null,
+                "Wholesale_price": 760.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8935136860889",
+                "Name": null,
+                "Quanlity": 2.0,
+                "Recharge": 1,
+                "Retail_price": 115.0,
+                "Search_name": null,
+                "Wholesale_price": 110.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI LUONG",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 8",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.CF",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 435.0,
+                "Search_name": null,
+                "Wholesale_price": 435.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH DAU",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 5",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 4.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 600.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI HA",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 10",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHU VU",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 7",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "ANH THAI",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 17",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Dai",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 14",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "CHI HAT",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 11",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 600.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 40.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8936016400072",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 70.0,
+                "Search_name": null,
+                "Wholesale_price": 69.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934603420069",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 260.0,
+                "Search_name": null,
+                "Wholesale_price": 255.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "anh Thoai",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 59",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Long",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 52",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.CF",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 435.0,
+                "Search_name": null,
+                "Wholesale_price": 435.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.DN",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 490.0,
+                "Search_name": null,
+                "Wholesale_price": 490.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.TA.C.25",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 520.0,
+                "Search_name": null,
+                "Wholesale_price": 520.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.T.C",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 140.0,
+                "Search_name": null,
+                "Wholesale_price": 138.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "BÃƒÆ’Ã‚Â¡nh TÃƒÂ¡Ã‚Â»Ã‚Â© QuÃƒÆ’Ã‚Â½ (CÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœng LÃƒÂ¡Ã‚Â»Ã‚Â¡)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 46",
+        "Items": [
+
+        ],
+        "Name": "Thuy Hoa",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK GK",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "8850228011072",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 230.0,
+                "Search_name": null,
+                "Wholesale_price": 230.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08936006170302",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 165.0,
+                "Search_name": null,
+                "Wholesale_price": 164.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18936006171743",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 188.0,
+                "Search_name": null,
+                "Wholesale_price": 188.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18936006171859",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 172.0,
+                "Search_name": null,
+                "Wholesale_price": 172.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "58934588843056",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 140.0,
+                "Search_name": null,
+                "Wholesale_price": 140.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "58934588233079",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 168.0,
+                "Search_name": null,
+                "Wholesale_price": 168.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934683008683",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 43.0,
+                "Search_name": null,
+                "Wholesale_price": 43.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.S.NUTRI",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 185.0,
+                "Search_name": null,
+                "Wholesale_price": 183.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18935049510116",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 180.0,
+                "Search_name": null,
+                "Wholesale_price": 175.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934822104337",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 310.0,
+                "Search_name": null,
+                "Wholesale_price": 308.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934822204334",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 375.0,
+                "Search_name": null,
+                "Wholesale_price": 370.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18935012413335",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 225.0,
+                "Search_name": null,
+                "Wholesale_price": 225.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18935001214236",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 140.0,
+                "Search_name": null,
+                "Wholesale_price": 136.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18934564600149",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 120.0,
+                "Search_name": null,
+                "Wholesale_price": 120.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "58934588193052",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 180.0,
+                "Search_name": null,
+                "Wholesale_price": 180.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18935005801132",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 80.0,
+                "Search_name": null,
+                "Wholesale_price": 75.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.N.A.500",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 80.0,
+                "Search_name": null,
+                "Wholesale_price": 78.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "58934588013053",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 115.0,
+                "Search_name": null,
+                "Wholesale_price": 112.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "58934588023052",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 115.0,
+                "Search_name": null,
+                "Wholesale_price": 112.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934823981388",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 174.0,
+                "Search_name": null,
+                "Wholesale_price": 172.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "58934588873053",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 160.0,
+                "Search_name": null,
+                "Wholesale_price": 160.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.N.MD",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 35.0,
+                "Search_name": null,
+                "Wholesale_price": 35.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "28935015400025",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 120.0,
+                "Search_name": null,
+                "Wholesale_price": 115.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Giai khat",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK B",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.CKH.25",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 352.5,
+                "Search_name": null,
+                "Wholesale_price": 352.5,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.CK.40",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 515.0,
+                "Search_name": null,
+                "Wholesale_price": 515.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.DC.X",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 345.0,
+                "Search_name": null,
+                "Wholesale_price": 345.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.DCAU.25",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 435.0,
+                "Search_name": null,
+                "Wholesale_price": 435.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.XD.40",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 435.0,
+                "Search_name": null,
+                "Wholesale_price": 435.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.DN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 490.0,
+                "Search_name": null,
+                "Wholesale_price": 490.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.CF",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 435.0,
+                "Search_name": null,
+                "Wholesale_price": 435.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.KNGUU",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 355.0,
+                "Search_name": null,
+                "Wholesale_price": 355.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.GT",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 375.0,
+                "Search_name": null,
+                "Wholesale_price": 375.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.BH.X",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 355.0,
+                "Search_name": null,
+                "Wholesale_price": 355.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.LB.D",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 435.0,
+                "Search_name": null,
+                "Wholesale_price": 435.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.3S.C",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 450.0,
+                "Search_name": null,
+                "Wholesale_price": 450.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Bot",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 32",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 15.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.K.3KG",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 720.0,
+                "Search_name": null,
+                "Wholesale_price": 720.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Huyen (LTR)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 30",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.CL.C.25",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 510.0,
+                "Search_name": null,
+                "Wholesale_price": 510.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Van",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 27",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 40.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 150.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.K.3KG",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 720.0,
+                "Search_name": null,
+                "Wholesale_price": 720.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Giang",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 29",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.CC.40",
+                "Name": null,
+                "Quanlity": 2.0,
+                "Recharge": 1,
+                "Retail_price": 450.0,
+                "Search_name": null,
+                "Wholesale_price": 450.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.CL.C.25",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 510.0,
+                "Search_name": null,
+                "Wholesale_price": 510.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Banh Thanh",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 45",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "TM TAY",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 13",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 4.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "anh Tuan (ao ca)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 2",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.CKH.25",
+                "Name": null,
+                "Quanlity": 40.0,
+                "Recharge": 1,
+                "Retail_price": 352.5,
+                "Search_name": null,
+                "Wholesale_price": 352.5,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Dung chay",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 51",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.4",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 285.0,
+                "Search_name": null,
+                "Wholesale_price": 285.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Nam",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 48",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 25.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "08935039500806",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 920.0,
+                "Search_name": null,
+                "Wholesale_price": 920.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Tan (Vinh Loc)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 3",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Khai (Cu Chi)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 50",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.BH.1KG",
+                "Name": null,
+                "Quanlity": 50.0,
+                "Recharge": 1,
+                "Retail_price": 370.0,
+                "Search_name": null,
+                "Wholesale_price": 370.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Huong (Bo Doi)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 44",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Truong",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 47",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 15.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Ha My",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 49",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 2.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.3",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 760.0,
+                "Search_name": null,
+                "Wholesale_price": 760.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Yen (Vinh Loc)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 12",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 4.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934561281719",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 170.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18935102411210",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.GK.CCL",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 120.0,
+                "Search_name": null,
+                "Wholesale_price": 115.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Viet (TT)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 9",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.BN.O.RSAN",
+                "Name": null,
+                "Quanlity": 4.0,
+                "Recharge": 1,
+                "Retail_price": 1060.0,
+                "Search_name": null,
+                "Wholesale_price": 1060.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.3",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 760.0,
+                "Search_name": null,
+                "Wholesale_price": 760.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Hoa (Cu Chi)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 43",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 8.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.PHEN",
+                "Name": null,
+                "Quanlity": 2.0,
+                "Recharge": 1,
+                "Retail_price": 148.0,
+                "Search_name": null,
+                "Wholesale_price": 148.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Thai Tu",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 38",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 30.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Tuyen (HM)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 31",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 8.0,
+                "Recharge": 1,
+                "Retail_price": 605.0,
+                "Search_name": null,
+                "Wholesale_price": 605.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.555.X.25",
+                "Name": null,
+                "Quanlity": 8.0,
+                "Recharge": 1,
+                "Retail_price": 300.0,
+                "Search_name": null,
+                "Wholesale_price": 300.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.N.247.T",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 170.0,
+                "Search_name": null,
+                "Wholesale_price": 168.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Hong Tuyen",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 56",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.QN",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 570.0,
+                "Search_name": null,
+                "Wholesale_price": 570.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "18935102411210",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.CL.C.25",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 510.0,
+                "Search_name": null,
+                "Wholesale_price": 510.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Linh (Duy)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 85",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 14.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Chi Huong Tuan",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 84",
+        "Items": [
+
+        ],
+        "Name": "Chi Nhung",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 83",
+        "Items": [
+
+        ],
+        "Name": "VUON LAI",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 82",
+        "Items": [
+
+        ],
+        "Name": "THU HANG",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 81",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 3.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.BH.500",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 390.0,
+                "Search_name": null,
+                "Wholesale_price": 390.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8936016400072",
+                "Name": null,
+                "Quanlity": 15.0,
+                "Recharge": 1,
+                "Retail_price": 70.0,
+                "Search_name": null,
+                "Wholesale_price": 70.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8936016400034",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 102.0,
+                "Search_name": null,
+                "Wholesale_price": 100.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "THAO NGUYEN (DH)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 80",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.THAI",
+                "Name": null,
+                "Quanlity": 5.0,
+                "Recharge": 1,
+                "Retail_price": 560.0,
+                "Search_name": null,
+                "Wholesale_price": 560.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.VP",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 600.0,
+                "Search_name": null,
+                "Wholesale_price": 600.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.T.C",
+                "Name": null,
+                "Quanlity": 20.0,
+                "Recharge": 1,
+                "Retail_price": 140.0,
+                "Search_name": null,
+                "Wholesale_price": 138.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.PHEN",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 148.0,
+                "Search_name": null,
+                "Wholesale_price": 148.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "THAO NGUYEN (1A)",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK T",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "8936016400072",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 70.0,
+                "Search_name": null,
+                "Wholesale_price": 69.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8936016400034",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 100.0,
+                "Search_name": null,
+                "Wholesale_price": 99.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934603420069",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 255.0,
+                "Search_name": null,
+                "Wholesale_price": 254.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.555.B",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 222.0,
+                "Search_name": null,
+                "Wholesale_price": 220.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.HILL",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 262.0,
+                "Search_name": null,
+                "Wholesale_price": 262.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.ERA.D",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 57.0,
+                "Search_name": null,
+                "Wholesale_price": 56.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.ERA.T",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 62.0,
+                "Search_name": null,
+                "Wholesale_price": 61.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934603220010",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 89.0,
+                "Search_name": null,
+                "Wholesale_price": 88.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.MEL.C",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 62.0,
+                "Search_name": null,
+                "Wholesale_price": 61.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8935047670263",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 80.0,
+                "Search_name": null,
+                "Wholesale_price": 78.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.KH",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 64.0,
+                "Search_name": null,
+                "Wholesale_price": 63.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934603020108",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 100.0,
+                "Search_name": null,
+                "Wholesale_price": 97.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934603220027",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 114.0,
+                "Search_name": null,
+                "Wholesale_price": 113.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934603100084",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 87.0,
+                "Search_name": null,
+                "Wholesale_price": 86.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934603100190",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 90.0,
+                "Search_name": null,
+                "Wholesale_price": 90.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.MEO.6",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 182.0,
+                "Search_name": null,
+                "Wholesale_price": 180.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.MEOX",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 181.0,
+                "Search_name": null,
+                "Wholesale_price": 181.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.MEOM",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 135.0,
+                "Search_name": null,
+                "Wholesale_price": 134.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.TRIAN",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 46.0,
+                "Search_name": null,
+                "Wholesale_price": 46.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8935029610690",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 225.0,
+                "Search_name": null,
+                "Wholesale_price": 225.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934647006359",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 64.0,
+                "Search_name": null,
+                "Wholesale_price": 63.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.NGUA.T",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 197.0,
+                "Search_name": null,
+                "Wholesale_price": 195.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.T.NUI",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 185.0,
+                "Search_name": null,
+                "Wholesale_price": 185.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934647008926",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 72.0,
+                "Search_name": null,
+                "Wholesale_price": 70.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8934647002467",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 67.0,
+                "Search_name": null,
+                "Wholesale_price": 66.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "8936011890113",
+                "Name": null,
+                "Quanlity": 1.0,
+                "Recharge": 1,
+                "Retail_price": 69.0,
+                "Search_name": null,
+                "Wholesale_price": 68.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Thuốc",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    },
+    {
+        "ID": "SVK 1",
+        "Items": [
+            {
+                "Frequence": 0.0,
+                "ID": "SV.D.NT",
+                "Name": null,
+                "Quanlity": 10.0,
+                "Recharge": 1,
+                "Retail_price": 755.0,
+                "Search_name": null,
+                "Wholesale_price": 755.0,
+                "class": "sale.Item"
+            },
+            {
+                "Frequence": 0.0,
+                "ID": "SV.B.5",
+                "Name": null,
+                "Quanlity": 2.0,
+                "Recharge": 1,
+                "Retail_price": 0.0,
+                "Search_name": null,
+                "Wholesale_price": 0.0,
+                "class": "sale.Item"
+            }
+        ],
+        "Name": "Anh Thang",
+        "Owned_money": 0,
+        "class": "sale.customer"
+    }
+]
